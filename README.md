@@ -5,8 +5,9 @@
 # AWS Auditor against Organizations' multiple accounts
 
 Cloudformation template - create an auditor role
-[auditor_role_CFN.yaml](auditor_role_CFN.yaml)
-Creation of the auditor template - bash script:
+[auditor_role_CFN.yaml](auditor_role_CFN.yaml) 
+
+Creation of the auditor template (Leveraging CFN template) - bash script:
 [auditor_role_CFN_create.sh](auditor_role_CFN_create.sh)
 
 
