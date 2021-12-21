@@ -1,7 +1,7 @@
 #!/bin/bash
 export AWS_DEFAULT_PROFILE=default
 export ACCOUNT_ID=$(aws sts get-caller-identity --query 'Account' | tr -d '"')
-aws iam create-group --group-name Auditor
+aws iam create-group --group-name Auditor-group
 # Keep the Auditor-policy.json in the same folder
 aws iam create-policy --policy-name Auditor-Policy --policy-document file://Audit-Policy.json
 aws iam attach-group-policy --group-name Auditor-group --policy-arn arn:aws:iam::aws:policy/SecurityAudit
