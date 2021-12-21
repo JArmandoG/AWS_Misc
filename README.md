@@ -21,3 +21,7 @@ FOR THE AUDITOR:
 ```bash
 for accountId in $ACCOUNTS_IN_ORGS; do <aws cli API calls> -A $accountId; done
 ```
+
+---
+
+Credits: Prowler
