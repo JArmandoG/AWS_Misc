@@ -4,6 +4,8 @@
 
 # AWS Auditor against Organizations' multiple accounts
 
+(Forked from the Prowler project, with customized scripts)
+
 Cloudformation template - create an auditor role
 [auditor_role_CFN.yaml](auditor_role_CFN.yaml) 
 
