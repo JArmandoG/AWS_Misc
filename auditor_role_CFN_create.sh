@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # USAGE:
 # ./this_script.sh <ACCOUNT_ID> <CFN_CREATION_FILE.yaml>
 
