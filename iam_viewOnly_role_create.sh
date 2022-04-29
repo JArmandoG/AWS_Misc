@@ -1,4 +1,5 @@
 #!/bin/bash
+# "auditor" for easy recognizable user/group/policy
 export AWS_DEFAULT_PROFILE=default
 export ACCOUNT_ID=$(aws sts get-caller-identity --query 'Account' | tr -d '"')
 aws iam create-group --group-name Auditor-group

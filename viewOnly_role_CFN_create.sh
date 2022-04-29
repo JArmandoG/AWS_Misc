@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# "auditor" for easy recognizable user/group/policy
 # USAGE:
 # ./this_script.sh <ACCOUNT_ID> <CFN_CREATION_FILE.yaml>
 
